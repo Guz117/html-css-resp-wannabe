@@ -84,6 +84,7 @@ img {
   #lezioni .row {
     background: #f2f2cd;
   }
+
 }
 
 
@@ -103,10 +104,16 @@ img {
     display: inline-block;
     width: 50%;
   }
+  .container.grey {
+    background-color: inherit;
+  }
 } 
 
 @media screen and (max-width: 420px) {
   #why .row{
     background: #f2f2cd;
+  }
+  .container.grey {
+    background-color: inherit;
   }
 }
