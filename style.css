@@ -73,6 +73,9 @@ img {
 }
 
 @media screen and (max-width: 768px) {
+  * {
+    margin: 0;
+  }
   .row {
     font-size: 2em;
     width: 100%;
@@ -94,6 +97,7 @@ img {
 @media screen and (max-width: 420px) {
   .row {
     width: 100%;
+    margin-top: 0;
   }
   #lezioni img, #steps img {
     width: 100%;
