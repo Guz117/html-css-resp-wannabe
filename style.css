@@ -72,10 +72,29 @@ img {
   clear: both;
 }
 
+@media screen and (max-width: 768px) {
+  .row {
+    font-size: 3em;
+  }
+  h1 {
+    color: lightcoral;
+  }
+  h3 {
+    color: lightgreen;
+  }
+  .container.grey {
+    background-color: inherit;
+  }
+  #why .row img {
+    border-radius: 0;
+  }
+}
+
 @media screen and (max-width: 420px) {
   #lezioni .row>.left {
     float: none;
     display: inline-block;
+    border-radius: ;
   }
   #lezioni .row>.right {
     float: none;
@@ -104,9 +123,6 @@ img {
     display: inline-block;
     width: 50%;
   }
-  .container.grey {
-    background-color: inherit;
-  }
 } 
 
 @media screen and (max-width: 420px) {
@@ -117,3 +133,4 @@ img {
     background-color: inherit;
   }
 }
+
